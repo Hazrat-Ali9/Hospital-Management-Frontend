@@ -15,3 +15,5 @@ const handlelogOut = () => {
       localStorage.removeItem("user_id");
     });
 };
+
+// Logout
