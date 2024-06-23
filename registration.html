@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="..."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <nav class="d-flex justify-content-around align-items-center p-4">
+      <div class="logo-container d-flex align-items-center gap-2">
+        <img src="./Images/stethoscope 1.png" alt="" />
+        <h3>SmartCare</h3>
+      </div>
+      <div class="menu-container d-flex gap-3">
+        <li class="menu"><a href="index.html"></a></li>
+        <li class="menu">Services</li>
+        <li class="menu">Contact us</li>
+        <li class="menu"><a target="_blank" href="login.html">Login</a></li>
+      </div>
+    </nav>
+
+    <div class="login-container">
+      <div class="col-md-6">
+        <h1 class="title mt-5">Please Registration</h1>
+        <form action="" onsubmit="handleRegistration(event)">
+          <p id="error" class="text-danger"></p>
+          <input
+            id="username"
+            type="text"
+            class="input"
+            placeholder="username"
+            required
+          />
+          <input
+            id="first_name"
+            type="text"
+            class="input"
+            placeholder="First Name"
+            required
+          />
+          <input
+            id="last_name"
+            type="text"
+            class="input"
+            placeholder="last Name"
+            required
+          />
+
+          <input
+            id="email"
+            type="email"
+            class="input"
+            placeholder="Email"
+            required
+          />
+          <input
+            id="password"
+            type="password"
+            class="input"
+            placeholder="password"
+            required
+          />
+          <input
+            id="confirm_password"
+            type="password"
+            class="input"
+            placeholder="Confirm password"
+            required
+          />
+          <input type="submit" class="submit-btn" value="Registration" />
+          <p><a href="login.html">go to login page</a></p>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <img class="w-100" src="./Images/login.png" alt="" />
+      </div>
+    </div>
+
+    <footer class="p-5">
+      <div class="container w-75 m-auto row p-5">
+        <div class="col-md-6">
+          <p><small>Copyright © Smartcare. All Rights Reserved</small></p>
+          <h5>Follow US</h5>
+          <div class="icons">
+            <img class="icon" src="./Images/LinkedIn.png" alt="" />
+            <img class="icon" src="./Images/YouTube.png" alt="" />
+            <img class="icon" src="./Images/LinkedIn.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5>Company</h5>
+          <li>ABout</li>
+          <li>Contact us</li>
+          <li>Culture</li>
+          <li>Blog</li>
+        </div>
+        <div class="col-md-3">
+          <h5>Company</h5>
+          <li>ABout</li>
+          <li>Contact us</li>
+          <li>Culture</li>
+          <li>Blog</li>
+        </div>
+      </div>
+      <hr />
+      <p class="text-center mt-3">
+        <small>Copyright © Smartcare. All Rights Reserved</small>
+      </p>
+    </footer>
+    <!-- script tag from here  -->
+    <script src="./app.js"></script>
+    <script src="./auth.js"></script>
+    <script src="./docDetails.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"
+      integrity="..."
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </body>
+</html>
