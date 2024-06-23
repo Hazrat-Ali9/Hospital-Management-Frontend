@@ -150,3 +150,5 @@ loadDoctors();
 loadDesignation();
 loadSpecialization();
 loadReview();
+
+// Apps js
