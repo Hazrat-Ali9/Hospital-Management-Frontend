@@ -126,3 +126,4 @@ const loadPatientId = () => {
 loadPatientId();
 getparams();
 loadTime();
+// Doc Details 
