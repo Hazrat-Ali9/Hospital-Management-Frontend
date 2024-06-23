@@ -1,3 +1,4 @@
+// Load All Appoinment
 const loadAllAppointment = () => {
   const patient_id = localStorage.getItem("patient_id");
   fetch(
@@ -31,3 +32,5 @@ const loadAllAppointment = () => {
 };
 
 loadAllAppointment();
+
+
