@@ -4,6 +4,7 @@ const loadAllAppointment = () => {
   fetch(
     `https://testing-8az5.onrender.com/appointment/?patient_id=${patient_id}`
   )
+  // Testing Result Render
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
