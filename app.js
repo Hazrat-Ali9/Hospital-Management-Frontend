@@ -4,7 +4,7 @@ const loadServices = () => {
     .then((data) => displayService(data))
     .catch((err) => console.log(err));
 };
-
+// Service Container
 const displayService = (services) => {
   //   console.log(services);
   services.forEach((service) => {
