@@ -14,7 +14,7 @@ const handleRegistration = (event) => {
     password,
     confirm_password,
   };
-
+// Password Registration
   if (password === confirm_password) {
     document.getElementById("error").innerText = "";
     if (
@@ -71,4 +71,3 @@ const handleLogin = (event) => {
   }
 };
 
-// Auth js
