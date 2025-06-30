@@ -1,6 +1,6 @@
 const handlelogOut = () => {
   const token = localStorage.getItem("token");
-
+// logout
   fetch("https://testing-8az5.onrender.com/patient/logout", {
     method: "POST",
     headers: {
