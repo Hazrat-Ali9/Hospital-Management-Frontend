@@ -32,7 +32,7 @@ const displayService = (services) => {
     parent.appendChild(li);
   });
 };
-
+// Load Doctors
 const loadDoctors = (search) => {
   document.getElementById("doctors").innerHTML = "";
   document.getElementById("spinner").style.display = "block";
