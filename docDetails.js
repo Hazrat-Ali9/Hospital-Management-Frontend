@@ -10,7 +10,7 @@ const getparams = () => {
     .then((res) => res.json())
     .then((data) => doctorReview(data));
 };
-
+// Doc Review
 const doctorReview = (reviews) => {
   reviews.forEach((review) => {
     const parent = document.getElementById("doc-details-review");
